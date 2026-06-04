@@ -8,6 +8,18 @@ This skill teaches Claude Code how to interact with your Dokploy instance effici
 
 ## Install
 
+```bash
+npx skills add CraftaleAgency/use-dokploy-mcp
+```
+
+Or install only the specific skill:
+
+```bash
+npx skills add CraftaleAgency/use-dokploy-mcp --skill run-dokploy-mcp
+```
+
+### Alternative methods
+
 Copy the skill into your project:
 
 ```bash
