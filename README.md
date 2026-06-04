@@ -9,13 +9,13 @@ This skill teaches Claude Code how to interact with your Dokploy instance effici
 ## Install
 
 ```bash
-npx skills add CraftaleAgency/use-dokploy-mcp
+npx skills add ppezzull/use-dokploy-mcp
 ```
 
 Or install only the specific skill:
 
 ```bash
-npx skills add CraftaleAgency/use-dokploy-mcp --skill run-dokploy-mcp
+npx skills add ppezzull/use-dokploy-mcp --skill run-dokploy-mcp
 ```
 
 ### Alternative methods
@@ -30,7 +30,7 @@ cp -r .claude/skills/ your-project/.claude/skills/
 Or add as a git submodule:
 
 ```bash
-git submodule add https://github.com/CraftaleAgency/use-dockploy-mcp.git .claude/skills/run-dokploy-mcp
+git submodule add https://github.com/ppezzull/use-dockploy-mcp.git .claude/skills/run-dokploy-mcp
 ```
 
 ## Prerequisites
